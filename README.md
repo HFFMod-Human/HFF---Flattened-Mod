@@ -9,6 +9,14 @@ Special thanks to Durf for creating the Hooman mod which got me into making this
 https://human.rlybtd.com/1287.html?btwaf=95520805 \
 It told me how to skip the intro credits with some code.
 
+Installation
+-
+1. Go to releases
+2. Download the .zip file from the latest release
+3. Extract it
+4. Move/copy the Assembly-CSharp.dll to C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed
+5. When prompted to replace the file, click yes
+
 Guide
 -
 This guide can also be found in the Info.txt file.
