@@ -7,7 +7,7 @@ The download link was originally on MediaFire, but GitHub is much better since t
 
 Special thanks to Durf for creating the Hooman mod which got me into making this, and the creator of this post/website:\
 https://human.rlybtd.com/1287.html?btwaf=95520805 \
-It told me how to skip the into credits with some code.
+It told me how to skip the intro credits with some code.
 
 Guide
 -
