@@ -446,3 +446,19 @@ Format:
 | Command | Description |
 | --- | --- |
 | skip | Skips the intro credit animations. Running this after the credits have passed will cause an error in the console |
+
+\
+\
+Screenshots
+-
+<img width="1885" height="1023" alt="image" src="https://github.com/user-attachments/assets/0a372f3d-c1dd-4c22-b1fd-ccdd9af5406f" />
+<img width="1888" height="1011" alt="image" src="https://github.com/user-attachments/assets/e432f8a1-bb62-437a-88bb-049af81e66c8" />
+<img width="1895" height="1028" alt="image" src="https://github.com/user-attachments/assets/d6390243-2f71-411a-8a22-8388ef7c2bc7" />
+<img width="1889" height="1021" alt="image" src="https://github.com/user-attachments/assets/85a23dc5-3962-4995-a1fe-e4d9f9b93a2e" />
+<img width="1895" height="1026" alt="image" src="https://github.com/user-attachments/assets/e209c898-6605-4550-b5e9-14c7cd139c7d" />
+<img width="1758" height="955" alt="image" src="https://github.com/user-attachments/assets/da666131-034e-4351-8639-eda309ccdf2c" />
+<img width="1892" height="1034" alt="image" src="https://github.com/user-attachments/assets/8005c856-8a15-4561-ac41-3e8f842f13dd" />
+<img width="1896" height="1024" alt="image" src="https://github.com/user-attachments/assets/86f4c5e5-207f-4bae-b375-36b013e8d652" />
+<img width="1896" height="1032" alt="image" src="https://github.com/user-attachments/assets/1a20ac7f-dee3-4ab1-9ad5-0dc160e10c7a" />
+<img width="1898" height="1017" alt="image" src="https://github.com/user-attachments/assets/be19aae5-d3aa-44d2-b788-6f88ee9aab1b" />
+<img width="1898" height="1028" alt="image" src="https://github.com/user-attachments/assets/5c97eed5-5482-4a2d-ab60-2c1e8066c82c" />
