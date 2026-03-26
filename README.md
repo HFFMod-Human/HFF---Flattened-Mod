@@ -416,6 +416,8 @@ Careful when deleting level objects! It can cause severe glitches. Deleting play
 Extend left hand and press ragdoll to create one cube\
 Grab with left hand to rotate grabbed object\
 
+Build mode can be extremely glitchy. Sometimes if you climb up a cube, the console will throw a bunch of errors. I'm only aware of one glitch, which causes the player to keep moving in the last direction they moved, even if they stopped pressing the move keys. You also can't jump when this happens. I think respawning fixes it, or being in build mode, and then moving off of the cube. If it doesn't stop, just exit to main menu or the lobby.
+
 The cube size is set with "buildsize" command\
 The cube distance is set with "builddist" command\
 The cube color is set with "buildcolor" command
@@ -462,3 +464,8 @@ Screenshots
 <img width="1896" height="1032" alt="image" src="https://github.com/user-attachments/assets/1a20ac7f-dee3-4ab1-9ad5-0dc160e10c7a" />
 <img width="1898" height="1017" alt="image" src="https://github.com/user-attachments/assets/be19aae5-d3aa-44d2-b788-6f88ee9aab1b" />
 <img width="1898" height="1028" alt="image" src="https://github.com/user-attachments/assets/5c97eed5-5482-4a2d-ab60-2c1e8066c82c" />
+<img width="1889" height="1013" alt="image" src="https://github.com/user-attachments/assets/a761c5af-903b-41d3-9e53-56cd383fb792" />
+<img width="1893" height="1031" alt="image" src="https://github.com/user-attachments/assets/443df515-6249-4551-ae55-90fc04507f19" />
+<img width="1889" height="1037" alt="image" src="https://github.com/user-attachments/assets/cdfbebb7-a626-4571-a4f4-92fa9b3175bf" />
+<img width="1896" height="1030" alt="image" src="https://github.com/user-attachments/assets/e9374e8f-09cd-464d-aaac-adced80e1739" />
+<img width="1823" height="1000" alt="image" src="https://github.com/user-attachments/assets/c78a385e-7bce-4426-bad1-1291a6b66ad8" />
