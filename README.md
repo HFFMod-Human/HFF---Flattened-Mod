@@ -166,7 +166,7 @@ Format:
 | Command | Description |
 | --- | --- |
 | flyspeed (player) (min/max) | Displays either minimum or maximum flying speed of the player |
-| flyspeed (target) (min/max) (speed) | Sets either minimum or maximum flying speed of the target to the specified speed |
+| flyspeed&nbsp;(target)&nbsp;(min/max)&nbsp;(speed) | Sets either minimum or maximum flying speed of the target to the specified speed |
 
 Recommended Speeds:
 - Min: 20
