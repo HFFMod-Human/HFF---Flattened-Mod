@@ -11,11 +11,22 @@ It told me how to skip the intro credits with some code.
 
 Installation
 -
-1. Go to releases
+1. Go to **Releases**
 2. Download the .zip file from the latest release
 3. Extract it
-4. Move/copy the Assembly-CSharp.dll file to C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed
+4. Move/copy the **Assembly-CSharp.dll** file to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
 5. When prompted to replace the file, click yes
+
+Uninstallation
+-
+1. Go to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
+2. Delete the **Assembly-CSharp.dll** file
+3. Open Steam, then go to your **Library**
+4. Right-click on **Human: Fall Flat**
+5. Click on **Properties**
+6. On the left menu, click on **Installed Files**
+7. Click on **Verify integrity of game files**
+8. Wait for it to finish, and when it does, you will have the vanilla game file, and the mod will be uninstalled
 
 Guide
 -
