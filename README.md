@@ -283,6 +283,13 @@ Format:
 
 To toggle sprint, press ragdoll. Your sprint speed depends on your run speed value.
 - - -
+#### runspeed
+Format:
+| Command | Description |
+| --- | --- |
+| runspeed (player) | Displays run speed of player |
+| runspeed (target) (value) | Sets the run speed of target to value |
+- - -
 #### webs
 Format:
 | Command | Description |
