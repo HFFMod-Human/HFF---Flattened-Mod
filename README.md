@@ -25,7 +25,8 @@ This guide can also be found in the Info.txt file.
 Some helpful links I found from an internet search for picking colors: \
 https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 \
 https://www.fffuel.co/cccolor/ \
-When you find a color, copy the hex code and paste it appropriately in the command. Ex (white): examplecolor 1 #FFFFFF \
+When you find a color, copy the hex code and paste it appropriately in the command. \
+Ex (white): examplecolor 1 #FFFFFF \
 Copy the second hex code listed for transparency.
 
 Color transparency works for all color commands except the "buildcolor" command.
@@ -92,7 +93,7 @@ Format:
 | Command | Description |
 | --- | --- |
 | savepos (name) (player) | Stores the position of the targeted player, and saves it under the assigned name |
-| savepos (name) (X) (Y) (Z) | Stores the position of the XYZ coordinates, and saves it under the assigned name |
+| savepos (name) (x) (y) (z) | Stores the position of the XYZ coordinates, and saves it under the assigned name |
 | savepos list | Displays all saved positions |
 | savepos (name) remove | Removes the position with the assigned name |
 | savepos clear | Clears all saved positions |
@@ -311,7 +312,7 @@ Format:
     Press and hold ragdoll, web stays attached while ragdoll is held\
     The hand that shoots the web is random if not grabbing anything\
     If left hand is grabbing, only right hand shoots a web\
-    If right hand is grabbing, only right hand shoots a web\
+    If right hand is grabbing, only left hand shoots a web\
     The web doesn't attach to anything, it's positioned above the player and slightly forwards in the direction the player is facing
 - - -
 #### webstrength
@@ -361,7 +362,7 @@ Format:
 A player has a health value, an energy value, and a strength value\
 If the energy value drops to 0, the player is knocked out for 1.5 seconds\
 If the health value drops to 0, the player respawns with full health and energy\
-The greater the player's strength, the more knockback the attacks produce\
+The greater the player's strength, the more knockback and damage the attacks produce\
 If the player that is hit is invincible, no damage is dealt\
 
 Left punch: Hold ragdoll and extend left hand\
@@ -426,10 +427,10 @@ Format:
 
 Extend right hand and hold ragdoll to create path of cubes\
 Grab with right hand to delete grabbed object\
-Careful when deleting level objects! It can cause severe glitches. Deleting players is not recommended. Deleting the cubes you've placed should be fine however.\
+Careful when deleting level objects! It can cause severe glitches. Deleting players is not recommended. Deleting the cubes you've placed should be fine however.
 
 Extend left hand and press ragdoll to create one cube\
-Grab with left hand to rotate grabbed object\
+Grab with left hand to rotate grabbed object
 
 Build mode can be extremely glitchy. Sometimes if you climb up a cube, the console will throw a bunch of errors. I'm only aware of one glitch, which causes the player to keep moving in the last direction they moved, even if they stopped pressing the move keys. You also can't jump when this happens. I think respawning fixes it, or being in build mode, and then moving off of the cube. If it doesn't stop, just exit to main menu or the lobby.
 
