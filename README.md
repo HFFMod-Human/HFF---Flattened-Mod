@@ -25,7 +25,7 @@ This guide can also be found in the Info.txt file.
 Some helpful links I found from an internet search for picking colors: \
 https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4 \
 https://www.fffuel.co/cccolor/ \
-When you find a color, copy the hex code and paste it appropriately in the command. Ex (white): examplecolor 1 ##FFFFFF \
+When you find a color, copy the hex code and paste it appropriately in the command. Ex (white): examplecolor 1 #FFFFFF \
 Copy the second hex code listed for transparency.
 
 Color transparency works for all color commands except the "buildcolor" command.
