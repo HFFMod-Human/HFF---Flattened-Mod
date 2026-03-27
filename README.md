@@ -28,7 +28,7 @@ https://www.fffuel.co/cccolor/ \
 When you find a color, copy the hex code and paste it appropriately in the command. Ex (white): examplecolor 1 ##FFFFFF \
 Copy the second hex code listed for transparency.
 
-Color transparency works for all color commands.
+Color transparency works for all color commands except the "buildcolor" command.
 
 ### Keybinds:
 Gravity:
