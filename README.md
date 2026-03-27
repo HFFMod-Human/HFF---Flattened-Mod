@@ -16,6 +16,7 @@ Installation
 3. Extract it
 4. Move/copy the **Assembly-CSharp.dll** file to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
 5. When prompted to replace the file, click yes
+6. The mod is now installed
 
 Uninstallation
 -
