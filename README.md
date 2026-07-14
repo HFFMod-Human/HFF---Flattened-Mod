@@ -111,7 +111,7 @@ Format:
 | savepos clear | Clears all saved positions |
 - - -
 #### tp
-Tip: Teleporting to yourself may help if stuck somewhere
+Tip: Teleporting to yourself may help if stuck somewhere  
 Format:
 | Command | Description |
 | --- | --- |
