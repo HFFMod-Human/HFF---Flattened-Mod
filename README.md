@@ -563,12 +563,6 @@ Format:
 | --- | --- |
 | colliders | Toggles collider view |
 - - -
-#### 
-Format:
-| Command | Description |
-| --- | --- |
-|  |
-- - -
 #### skip
 Format:
 | Command | Description |
