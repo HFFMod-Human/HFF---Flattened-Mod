@@ -6,8 +6,8 @@ Flattened is a mod for Human: Fall Flat.
 The download link was originally on MediaFire, but GitHub is much better since there are no annoying pop-ups or anything. Plus I can add the older versions of the mod, although they may no longer be compatible with the game.
 
 Special thanks to Durf for creating the Hooman mod which got me into making this, and to the creator of this post/website:\
-https://human.rlybtd.com/1287.html?btwaf=95520805 \
-It told me how to skip the intro credits with some code.
+https://human.rlybtd.com/1287.html?btwaf=95520805  
+It told me how to skip the intro credits, and set the lobby size via commands.
 
 Installation
 -
@@ -489,6 +489,85 @@ To move objects faster, hold ragdoll.
 Extend the arm holding the object you want to release, and press jump
 
 **Tip:** You can grab one object in each hand, but you'll have to be fast enough to grab a new object before the object you're currently holding gets in the way of your aiming.
+- - -
+#### chat
+Format:
+| Command | Description |
+| --- | --- |
+| chat size (value) | Sets chat font size to value |
+| chat font (font) | Sets chat font to specified font, if it's available |
+| chat color (color) | Sets chat color to specified color |
+- - -
+#### console
+Format:
+| Command | Description |
+| --- | --- |
+| console size (value) | Sets console size to value |
+| console color (color) | Sets console color to specified color |
+- - -
+#### clone
+Format:
+| Command | Description |
+| --- | --- |
+| clone add | Adds clone |
+| clone remove | Removes all clones |
+| clone f | Freezes clones |
+| clone count | Displays clone count |
+- - -
+#### lobbysize
+Format:
+| Command | Description |
+| --- | --- |
+| lobbysize (value) | Sets lobby size to value |
+- - -
+#### spectate
+Format:
+| Command | Description |
+| --- | --- |
+| spectate (player number) | Spectates player |
+| spectate off | Disables spectate |
+- - -
+#### players
+Format:
+| Command | Description |
+| --- | --- |
+| players | Toggles player list |
+- - -
+#### light
+Format:
+| Command | Description |
+| --- | --- |
+| light | Toggles player light |
+- - -
+#### flashlight
+Format:
+| Command | Description |
+| --- | --- |
+| flashlight | Toggles flashlight |
+- - -
+#### keybinds
+Format:
+| Command | Description |
+| --- | --- |
+| keybinds | Toggles keybinds |
+- - -
+#### coopcams
+Format:
+| Command | Description |
+| --- | --- |
+| coopcams (true/false) | Enables or disables co-op cameras |
+- - -
+#### colliders
+Format:
+| Command | Description |
+| --- | --- |
+| colliders | Toggles collider view |
+- - -
+#### 
+Format:
+| Command | Description |
+| --- | --- |
+|  |
 - - -
 #### skip
 Format:
