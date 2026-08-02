@@ -471,6 +471,25 @@ Format:
 | buildcolor (player) | Displays build color of player |
 | buildcolor (target) (color) | Sets build color of target to color |
 - - -
+#### telekinesis
+Format:
+| Command | Description |
+| --- | --- |
+| telekinesis (target) (true/false) | Enables or disables telekinesis for target |
+### Telekinesis controls:
+**Grabbing:**  
+Aim at object and extend arm
+Tap ragdoll key  
+**Moving:**  
+The object will move where you look, although sometimes it won't move until you interact with the object.  
+To pull, hold ragdoll, extend the arm holding the object you want to pull, and move backwards.  
+To push, hold ragdoll, extend the arm holding the object you want to push, and move forwards.  
+To move objects faster, hold ragdoll.  
+**Releasing:**  
+Extend the arm holding the object you want to release, and press jump
+
+**Tip:** You can grab one object in each hand, but you'll have to be fast enough to grab a new object before the object you're currently holding gets in the way of your aiming.
+- - -
 #### skip
 Format:
 | Command | Description |
