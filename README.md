@@ -90,7 +90,7 @@ Most commands have a (target) parameter, or a (player) parameter. This is what t
 
 | Target | Description |
 | --- | --- |
-| (player) | Player number identified from using "/list" command in chat |
+| (player) | Player number identified from viewing player list |
 | others | All players except the host of the server |
 | all | All players |
 - - -
