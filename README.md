@@ -62,6 +62,25 @@ Gravity:
   - (Minus + Right Shift) - Decrease gravity by 0.1
   - (Left Shift) - Increase speed of gravity increases and decreases
 
+**The following only work if keybinds are enabled. Keybinds are enabled by default but can be disabled via the "keybinds" command.**  
+Player list:
+- P - Toggle player list
+
+Spectating:
+- L - Toggle spectating
+- Left arrow - Previous player
+- Right arrow - Next player
+
+Skip intro:
+- Spacebar, Enter, Left Control, Right Control, Backspace, Left Shift, Right shift keys - Skip intro
+
+Clones:
+- H - Toggle freeze clones
+- Backslash - Toggle co-op cameras
+
+Misc:
+- I - Load checkpoint, only works in other servers
+
 
 ### Commands:
 
@@ -99,6 +118,7 @@ Format:
 | Command | Description |
 | --- | --- |
 | pos (player) | Displays targeted player's coordinates |
+| pos show | Toggles coordinates display |
 - - -
 #### savepos
 Format:
