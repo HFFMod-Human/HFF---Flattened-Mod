@@ -395,7 +395,7 @@ A player has a health value, an energy value, and a strength value\
 If the energy value drops to 0, the player is knocked out for 1.5 seconds\
 If the health value drops to 0, the player respawns with full health and energy\
 The greater the player's strength, the more knockback and damage the attacks produce\
-If the player that is hit is invincible, no damage is dealt\
+If the player that is hit is invincible, no damage is dealt
 
 Left punch: Hold ragdoll and extend left hand\
 Right punch: Hold ragdoll and extend right hand\
@@ -582,6 +582,18 @@ Format:
 | Command | Description |
 | --- | --- |
 | colliders | Toggles collider view |
+- - -
+#### websounds
+Format:
+| Command | Description |
+| --- | --- |
+| websounds (target) (true/false) | Enables or disables web sounds for target |
+- - -
+#### cam
+Format:
+| Command | Description |
+| --- | --- |
+| cam far (value) | Sets camera far clip plane (how far you can view things) |
 - - -
 #### skip
 Format:
