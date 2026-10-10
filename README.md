@@ -261,9 +261,15 @@ Format:
 | Command | Description |
 | --- | --- |
 | flashtime | Displays the current flashtime value |
-| flashtime (0.01 <= value <= 1) | Sets flashtime value to a number from 0.01 to 1 |
+| flashtime (value) | Sets flashtime value to value (Recommended: 0.01 to 1) |
+| flashtime (real/simulated) | Sets flashtime mode to "real" or "simulated" |
 
 To enable flashtime, press the "play dead" button and the jump button at the same time. You must have superspeed to be able to do this.
+
+Flashtime Modes:
+| Real | Simulated |
+| --- | --- |
+| The timescale is actually changed, and the player uses custom animations. | The timescale is not affected and instead most moving objects are adjusted to provide a visual, "simulated" slow-motion effect. The player moves around normally. |
 - - -
 #### exitflashtime
 Format:
@@ -284,7 +290,9 @@ Format:
 | Command | Description |
 | --- | --- |
 | trailcolor (player) | Displays speed trail color of player |
+| trailcolor (player) glow | Displays glow value of player trails |
 | trailcolor (target) (color) | Sets the speed trail color of target |
+| trailcolor (target) glow (value) | Sets glow value of target trails |
 - - -
 #### wallrun
 Format:
@@ -292,7 +300,9 @@ Format:
 | --- | --- |
 | wallrun (target) (true/false) | Enables or disables wall running for target |
 
-To wall run, move towards a wall and hold jump. If you stop moving, you will stay stuck to the wall until you let go of jump, or move away from the wall.
+To wall run, move towards a wall and hold jump.\
+Look in the direction you want to go along the wall, and keep moving towards the wall.\
+If you stop moving, you will stay stuck to the wall until you let go of jump, or move away from the wall.
 - - -
 #### flips
 Format:
@@ -329,6 +339,8 @@ Format:
 | --- | --- |
 | webs (player) | Displays whether player has webs enabled, and if true, it displays the web mode |
 | webs&nbsp;(target)&nbsp;(simple/manual) | Sets web mode of target to either simple or manual |
+| webs&nbsp;(target)&nbsp;(plants/wraps/traps)&nbsp;(true/false) | Enables or disables certain web features |
+| webs (target) clear | Clears webs of target |
 | webs (target) false | Disables webs for target, it only disables, because the way for enabling webs is "simple" or "manual" instead of "true" |
 
 - Manual Webs:
@@ -346,6 +358,13 @@ Format:
     If left hand is grabbing, only right hand shoots a web\
     If right hand is grabbing, only left hand shoots a web\
     The web doesn't attach to anything, it's positioned above the player and slightly forwards in the direction the player is facing
+
+Web Features:
+| Feature | Info |
+| --- | --- |
+| Planting | When holding one or more webs, grab anywhere with that hand to stick the webs to that spot |
+| Wrapping | Webs wrap around corners or other non-moving objects, clipping the web and shortening it |
+| Trapping | Objects get stuck in webs.<br />This can cause glitches and/or crash the game if there are too many webs, or if the trapped objects are moving erratically. Clear the webs if this happens. |
 - - -
 #### webstrength
 Format:
@@ -383,7 +402,9 @@ Format:
 | Command | Description |
 | --- | --- |
 | lasercolor (player) | Displays heat vision laser color of player |
+| lasercolor (player) glow | Displays glow value of player lasers |
 | lasercolor (target) (color) | Sets the heat vision laser color of target |
+| lasercolor (target) glow (value) | Sets glow value of target lasers |
 - - -
 #### combat
 Format:
@@ -594,6 +615,28 @@ Format:
 | Command | Description |
 | --- | --- |
 | cam far (value) | Sets camera far clip plane (how far you can view things) |
+- - -
+#### reticle
+Format:
+| Command | Description |
+| --- | --- |
+| reticle | Toggles reticles |
+| reticle indicators | Toggles reticle indicators |
+| reticle left | Toggles left reticle |
+| reticle right | Toggles right reticle |
+| reticle size (size) | Sets reticle size |
+| reticle left (color) | Sets left reticle color |
+| reticle right (color) | Sets right reticle color |
+| reticle char left (character) | Sets left reticle character |
+| reticle char right (character) | Sets right reticle character |
+| reticle reset | Resets reticle settings to default |
+
+Indicators:
+| Symbol | Meaning |
+| --- | --- |
+| — | Indicates non-moving object (The object has no rigidbody component) |
+| \| | Indicates moving object (The object has a rigidbody component) |
+| ✛ | Indicates player |
 - - -
 #### skip
 Format:
