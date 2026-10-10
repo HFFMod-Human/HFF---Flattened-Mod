@@ -351,9 +351,14 @@ Format:
     This way, you can hold on to one web, but let go of the other, obviously. Just wanted to point out the manual quality\
     If one hand is holding multiple webs, and you extend that hand and press jump, all webs from that hand will be released\
     The main reason for the ability to hold multiple webs in one hand is purely because Spider-Man 2 :)
+  
+    To reel webs in hand, extend that hand and move backwards.\
+	  To loosen webs in hand, extend that hand and move forwards.
+
 - Simple Webs:
 
     Press and hold ragdoll, web stays attached while ragdoll is held\
+    Press jump to reel in web\
     The hand that shoots the web is random if not grabbing anything\
     If left hand is grabbing, only right hand shoots a web\
     If right hand is grabbing, only left hand shoots a web\
