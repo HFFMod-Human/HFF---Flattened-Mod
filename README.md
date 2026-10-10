@@ -270,6 +270,8 @@ Flashtime Modes:
 | Real | Simulated |
 | --- | --- |
 | The timescale is actually changed, and the player uses custom animations. | The timescale is not affected and instead most moving objects are adjusted to provide a visual, "simulated" slow-motion effect. The player moves around normally. |
+
+Tip: In real flashtime, you can hold ragdoll to prevent grabbing.
 - - -
 #### exitflashtime
 Format:
