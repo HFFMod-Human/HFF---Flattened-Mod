@@ -564,6 +564,22 @@ Format:
 | clone f | Freezes clones |
 | clone count | Displays clone count |
 - - -
+#### f
+Format:
+| Command | Description |
+| --- | --- |
+| f (local player) | Disables input of local player or clone |
+
+Below are some examples to help explain the command better:
+
+If you have 1 clone or another person is playing with local co-op, then the command works like this:\
+Your number: 1\
+Co-op player or clone: 2
+
+So "f 1" will freeze you, and "f 2" will freeze player 2.\
+If you have 3 clones, and want to freeze the second one, do:\
+"f 3"
+- - -
 #### lobbysize
 Format:
 | Command | Description |
