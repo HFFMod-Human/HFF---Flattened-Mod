@@ -14,14 +14,16 @@ https://thunderstore.io/c/human-fall-flat/p/Lighty/YogaMod/
 Installation
 -
 1. Go to **Releases**
-2. Download the .zip file from the latest release
-3. Extract it
-4. Move/copy the **Assembly-CSharp.dll** file to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
-5. When prompted to replace the file, click yes
-6. The mod is now installed
+2. Navigate to the latest release
+3. Download the .zip file
+4. Extract it
+5. Move/copy the **Assembly-CSharp.dll** file to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
+6. When prompted to replace the file, click yes
+7. The mod is now installed
 
 Uninstallation
 -
+#### Method 1
 1. Go to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
 2. Delete the **Assembly-CSharp.dll** file
 3. Open Steam, then go to your **Library**
@@ -30,6 +32,14 @@ Uninstallation
 6. On the left menu, click on **Installed Files**
 7. Click on **Verify integrity of game files**
 8. Wait for it to finish, and when it does, you will have the vanilla game file, and the mod will be uninstalled
+#### Method 2
+1. Go to **Releases**
+2. Navigate to the Vanilla file.
+3. Download the .zip file
+4. Extract it
+5. Move/copy the **Assembly-CSharp.dll** file to *C:\Program Files (x86)\Steam\steamapps\common\Human Fall Flat\Human_Data\Managed*
+6. When prompted to replace the file, click yes
+7. The mod is now uninstalled
 
 Guide
 -
