@@ -32,7 +32,7 @@ Uninstallation
 6. On the left menu, click on **Installed Files**
 7. Click on **Verify integrity of game files**
 8. Wait for it to finish, and when it does, you will have the vanilla game file, and the mod will be uninstalled
-#### Method 2
+#### Method 2 (This only works if the given file is up-to-date. Method 1 is recommended.)
 1. Go to **Releases**
 2. Navigate to the Vanilla file.
 3. Download the .zip file
